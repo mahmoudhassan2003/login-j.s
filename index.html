@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <main>
+        <section class="vh-100 overflow-auto   login">
+            <div class="container">
+            <div class="login-content p-5 w-75 mx-auto mt-5   text-center">
+                <h1>Smart Login System </h1>
+                
+                <div class="form">
+                    <input type="email" name="email" class="form-control LoginEmail mt-4" required placeholder="Enter your email"
+                        id="exampleInputEmail1" aria-describedby="emailHelp">
+                    <input type="password" name="password" class="form-control LoginPassword mb-2 mt-3" required placeholder="Enter your password"
+                        id="exampleInputEmail1" aria-describedby="emailHelp">
+                        <span class=" info"></span>
+                        <button type="button" onclick="getValueLgin() " name="login" class="btn btn-outline-info LoginBtn w-100 mt-4">Login</button>
+                        <p class="mt-2 text-white  fs-6">Don’t have an account? <a href="sign-up.html">Sign Up</a></p> 
+                </div>
+            </div>
+        </div>
+
+        </section>
+    </main>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/index.js"></script>
+</body>
+
+</html>
